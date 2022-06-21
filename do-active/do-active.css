@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+img {
+  padding: 30px;
+}
+
+ul img {
+  padding-right: 100px;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header_img {
+  max-width: 800px;
+  height: 350px;
+}
+
+.langue {
+  margin-left: 250px;
+}
+
+.main_nav a {
+  color: black;
+}
+
+.main_nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.main_nav ul li:not(:last-child) {
+  margin-right: 40px;
+  width: 50%;
+}
+
+.main_nav ul li a {
+  display: inline-block;
+  opacity: 0.5;
+  text-decoration: none;
+  transition: 0.3 ease;
+  border-bottom: 1px solid transparent;
+}
+
+.main_nav {
+  position: absolute;
+  width: 1240px;
+  height: 100px;
+
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(88px);
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.btn {
+  background-color: #5bbc58;
+  border-radius: 6px;
+  border: 2px solid #5bbc58;
+  color: white;
+  padding: 10px 40px;
+}
